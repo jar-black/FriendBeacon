@@ -2,5 +2,15 @@
   "fqbn_append": "PartitionScheme=huge_app",
   "requires": [
     "CONFIG_SOC_BLE_SUPPORTED=y"
+  ],
+  "libraries": [
+    {
+      "name": "FastLED",
+      "version": ">=3.6.0"
+    },
+    {
+      "name": "ArduinoOTA",
+      "version": ">=1.0.0"
+    }
   ]
 }
